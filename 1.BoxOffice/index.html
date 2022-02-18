@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jungle Cinema</title>
     <link rel="stylesheet" href="src/style/reset.css" />
+    <link rel="stylesheet" href="src/style/style.css" />
   </head>
 
   <body>
@@ -281,12 +282,12 @@
         </ul>
       </section>
     </section>
-    <footer>
-      <section>
-        <h2>기업정보</h2>
-        <strong>Jungle Cinema</strong>
-        <dl>
-          <dt>사명</dt>
+    <footer id="cont-company" class="cont-company">
+      <section class="cont-coInfo">
+        <h2 class="sr-only">기업정보</h2>
+        <strong class="tit-company">Jungle Cinema</strong>
+        <dl class="list-coInfo">
+          <dt class="sr-only">사명</dt>
           <dd>(주)정글 시네마</dd>
           <dt>대표</dt>
           <dd>라이캣</dd>
@@ -296,13 +297,15 @@
           <dt>주소</dt>
           <dd>제주특별자치도</dd>
         </dl>
-        <em>sns 링크 목록</em>
-        <ul>
-          <li><a href="#none">트위터</a></li>
-          <li><a href="#none">인스타그램</a></li>
-          <li><a href="#none">페이스북</a></li>
+        <em class="sr-only">sns 링크 목록</em>
+        <ul class="list-sns">
+          <li><a href="#none" class="link-twitter">트위터</a></li>
+          <li><a href="#none" class="link-insta">인스타그램</a></li>
+          <li><a href="#none" class="link-facebook">페이스북</a></li>
         </ul>
-        <small>Copyright &copy;The Jungle. All Rights Reserved.</small>
+        <small class="txt-copy"
+          >Copyright &copy;The Jungle. All Rights Reserved.</small
+        >
       </section>
     </footer>
   </body>
